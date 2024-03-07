@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.card {
+    border-radius: 12px;
+    height: 415px;
+    width: 270px;
+    background-color: #1c5a85;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+.card_head_txt2 {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.card_second_head {
+    text-align: center;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.card_heade_txt {
+    display: flex;
+    flex-direction: column;
+    color: #1c5a85;
+}
+
+.card_main_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_head_txt1 {
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card_second_head {
+    font-weight: 800;
+    color: red;
+    margin: 5px 0px;
+}
+
+#card_img {
+    height: 40px;
+    width: 40px;
+}
+
+#card_img2 {
+    height: 132px;
+    width: 142px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* .card_body::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 91px;
+    background: url(./fb12f34f-c86b-4afb-a08f-eeb4424f8d1b-removebg-preview.png);
+    background-size: 151px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+} */
+
+.card_content {
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.card_content_1 {
+    display: flex;
+    gap: 28px;
+    font-weight: 500;
+}
+
+.card_content_2 {
+    display: flex;
+    gap: 29px;
+    font-weight: 500;
+}
+
+.card_content_3 {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.card_content_4 {
+    display: flex;
+    gap: 41px;
+    font-weight: 500;
+}
+
+.card_content_5 {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.card_auth_sign {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card_heade_txt_final {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.card_insider {
+    background-color: aliceblue;
+    margin: 0px 10px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.final_footer_contents {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: aliceblue;
+    padding: 10px 10px;
+    font-weight: 600;
+}
+
+.final_card_footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.footer_mail {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
